@@ -12,7 +12,7 @@ This is a simple movie information website created with Flask. It allows users t
 
    ```bash
    git clone https://github.com/punyarb62/my_first_website_for_fun.git
-   cd my_first_website_for_fun
+   cd my_first_website_for_fun ```
   2.Set up a virtual environment (optional but recommended):
      ```bash
     python -m venv venv
