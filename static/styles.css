@@ -1,0 +1,154 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #121212;
+    color: #eee;
+}
+
+/* Header Styles */
+header {
+    background: #222;
+    color: #eee;
+    padding: 10px 0;
+    border-bottom: 2px solid #00ff99; /* Neon light effect */
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav h1 {
+    margin: 0;
+    color: #00ff99; /* Neon light color */
+}
+
+nav a {
+    color: #eee;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #333;
+    border-radius: 5px;
+}
+
+/* Container Styles */
+.container {
+    padding: 20px;
+}
+
+/* Movie Card Styles */
+.movie-card, .movie-card-detail {
+    display: flex;
+    border: 1px solid #444;
+    margin-bottom: 20px;
+    background: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 255, 153, 0.5); /* Neon light effect */
+}
+
+.movie-card img, .movie-card-detail img {
+    width: 150px;
+    height: 225px;
+    object-fit: cover;
+}
+
+.movie-card-detail img {
+    width: 300px;
+    height: 450px;
+}
+
+.movie-details, .movie-details-detail {
+    padding: 15px;
+}
+
+.movie-details h3, .movie-details-detail h2 {
+    margin: 0;
+    color: #00ff99; /* Neon light color */
+}
+
+/* Adjusted Movie Card Layout */
+.movie-card {
+    flex-direction: column;
+    width: 200px; /* Adjust width as needed */
+    margin: 10px;
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+}
+
+.movie-card .movie-details {
+    text-align: center;
+}
+
+/* Hit Movies Section */
+#top-hit-movies-section {
+    display: block;
+    padding: 10px;
+}
+
+#top-hit-movie-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#top-hit-movie-info .movie-card {
+    margin: 10px;
+}
+
+/* Search Section */
+.search-section {
+    margin-bottom: 20px;
+}
+
+#search-query {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background: #222;
+    color: #eee;
+}
+
+button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #00ff99; /* Neon light color */
+    color: #121212;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00cc66;
+}
+
+/* Toggle Button */
+.toggle-btn {
+    background: #00ff99;
+    color: #121212;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.toggle-btn:hover {
+    background: #00cc66;
+}
+
+/* Search Results */
+#search-movie-info {
+    display: flex;
+    flex-wrap: wrap;
+}
